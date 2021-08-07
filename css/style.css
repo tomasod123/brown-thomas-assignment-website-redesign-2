@@ -1,0 +1,77 @@
+/* Colour Palette: */
+:root {
+    --PureWhite:#FFF;
+    --EerieBlack:#151515;
+    --LightGrey:#EEf1f3;
+}
+
+
+*,*::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Futura", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background-color: #fff;
+    color: var(--EerieBlack);
+    position: relative;
+    z-index: 1;
+}
+
+h1,h2,h3,h4 {
+    font-weight: 500;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.container-md {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width:1200px) {
+    .container {
+        padding: 0 3rem;
+    }
+
+    .container-md {
+        padding: 0 3rem;
+    }
+}
+
+.header {
+    position: relative;
+}
+
+/* The code for adding Futura directly into CSS
+/* font-family: futura-pt, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+font-family: futura-pt-bold, sans-serif;
+font-weight: 700;
+font-style: normal; */

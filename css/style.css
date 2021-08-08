@@ -228,7 +228,7 @@ li {
     /* bottom: 10%;
     right: -5%; */
     height: 70rem;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .hero-content {
@@ -266,6 +266,14 @@ li {
   font-size: 1rem;
   text-transform: uppercase;
 }
+
+.btn:hover {
+  background-color: var(--EerieBlack);
+  color: var(--PureWhite);
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;
+}
+
 
 @media (max-width: 1200px) {
   .header .hero-image {

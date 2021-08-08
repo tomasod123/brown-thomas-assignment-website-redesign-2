@@ -334,14 +334,75 @@ li {
   }
 }
 
-/* Advert */
-.section {
-  padding: 10rem 0 5rem 0;
+.flex-cards-container {
+  margin-top: 60px;
+  width: 100%;
+  height: auto ;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
 }
 
-/* .advert-center {
+.box {
+  width: 20%;
+  height: 50vh;
+  margin: 20px; 
+  font-size: 1.2rem;
+  color: var(--PureWhite);
+  font-weight: 500;
+  line-height: 1;
+}
 
-} */
+
+.card-text {
+  padding: 25px;
+  text-align: center;
+  background-color: var(--EerieBlack);
+  margin-top: -2px;
+}
+
+.card-text:hover {
+  background-color: var(--LightGrey);
+  color: var(--EerieBlack);
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;
+}
+
+.flex-video-container  {
+  margin-top: 20px;
+  width: 100%;
+  height: auto ;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.iframe-video-section-box {
+  width: 42.5%;
+  height: 65vh;
+  background: yellow;
+  box-sizing: border-box;
+  margin: 2.5%;
+  overflow: hidden;
+}
+
+.iframe-pic{
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1200px) {
+  .box, .iframe-video-section-box {
+    width: 40%;
+    margin-bottom: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box, .iframe-video-section-box{
+    width: 90%;
+  }
+}
+
 
 
 /* The code for adding Futura directly into CSS

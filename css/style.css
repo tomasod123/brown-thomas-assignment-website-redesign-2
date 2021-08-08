@@ -332,9 +332,16 @@ li {
   .hero-content h2 span {
     font-size: 1.4rem;
   }
-
 }
 
+/* Advert */
+.section {
+  padding: 10rem 0 5rem 0;
+}
+
+/* .advert-center {
+
+} */
 
 
 /* The code for adding Futura directly into CSS

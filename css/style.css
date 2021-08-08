@@ -295,16 +295,16 @@ li {
 
 @media (max-width: 996px) {
   .header {
-    min-height: 70vh;
+    min-height: 100vh;
   }
   
   .header .hero-image {
-    height: 40rem;
+    /* height: 100rem; */
     /* right: -20%; */
   }
 
   .hero-content {
-    transform: translate (20%, -50%);
+    transform: translate (20%, -20%);
   }
 
   .hero-content h3 {
@@ -314,8 +314,27 @@ li {
   .hero-content h1 span {
     font-size: 5rem;
   }
+
+  .hero-content h2 span {
+    font-size: 1.8rem;
+  }
 }
 
+@media (max-width: 567px) {
+
+  .hero-content h3 {
+      font-size: 1.5rem;
+  }
+
+  .hero-content h1 span {
+    font-size: 3rem;
+  }
+
+  .hero-content h2 span {
+    font-size: 1.4rem;
+  }
+
+}
 
 
 /* The code for adding Futura directly into CSS

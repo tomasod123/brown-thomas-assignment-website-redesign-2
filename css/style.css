@@ -270,10 +270,9 @@ li {
 
 .btn {
   display: inline-block;
-  background-color: var(--PureWhite);
+  /* background-color: var(--PureWhite); */
   margin-top: 3.75rem;
-  padding: 1.5rem 2.75rem 1.5rem;
-  color: var(--EerieBlack);
+  /* color: var(--EerieBlack); */
   font-size: 1.2rem;
   text-transform: uppercase;
 }
@@ -286,11 +285,13 @@ li {
   flex: 20%;
 }
 
+
+
 button{
   width:100%;
   height:50px;
   position:relative;
-  background:rgba(21, 21, 21, .2);
+  background: var(--EerieBlack);
   text-transform:uppercase;
   color:var(--PureWhite);
   font-weight:700;
@@ -299,6 +300,7 @@ button{
   font-size:15px;
   outline:none;
   cursor: pointer;
+  padding: 15px 15px;
 }
 
 .border{
@@ -331,7 +333,6 @@ button{
 
 
 @media (max-width: 1200px) {
-
   .hero-content {
     transform: translate (20%, -50%);
   }
@@ -453,15 +454,15 @@ button{
   left: 50%;
   top: 50%;
   transform: translate(-50%, 0);
-  background-color: var(--EerieBlack);
-  color: var(--PureWhite);
+  /* background-color: var(--EerieBlack);
+  color: var(--PureWhite); */
   z-index: 2;
 }
 
-.iframe-video-section-box .btn:hover {
+/* .iframe-video-section-box .btn:hover {
   background-color: var(--PureWhite);
   color: var(--EerieBlack);
-}
+} */
 
 .iframe-pic{
   object-fit: cover;
@@ -595,14 +596,7 @@ button{
 }
 
 .container-email .btn {
-  background-color: var(--EerieBlack);
-  color: var(--PureWhite);
   z-index: 2;
-}
-
-.container-email .btn:hover {
-  background-color: var(--PureWhite);
-  color: var(--EerieBlack);
 }
 
 .container-email img {
